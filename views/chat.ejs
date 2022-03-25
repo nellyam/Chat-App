@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Chat App</title>
+    <link rel="stylesheet" href="/css/chat.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
+</head>
+<body>
+
+<div class="container py-5 px-4">
+    <h1 class="text-center text-uppercase mb-4">Chat App</h1>
+    <div class="row rounded-lg overflow-hidden shadow">
+        <div class="col-12 px-0">
+            <div id="msgBox" class="px-4 py-5 chat-box bg-white">
+            </div>
+            <div class="input-group">
+                <input
+                        type="text"
+                        id="message"
+                        placeholder="Tapez votre message.."
+                        class="form-control rounded-0 border-0 py-4 bg-light">
+                <div class="input-group-append">
+                    <button
+                            id="send"
+                            type="button"
+                            class="btn btn-link">
+                        <i class="fa fa-paper-plane"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+
+<script src="https://cdn.socket.io/socket.io-3.0.1.min.js"></script>
+<script src="/js/chat.js"></script>

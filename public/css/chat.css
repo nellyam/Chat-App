@@ -1,0 +1,8 @@
+html {
+    background-color: #eee;
+}
+
+.chat-box {
+    height: 510px;
+    overflow-y: scroll;
+}
