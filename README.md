@@ -4,7 +4,7 @@ The project was developped in **NodeJS** environnment, using **Express** framewo
 
 <h2>Development server</h2>
 
-Run **npm start** for a dev server. Navigate to http://localhost:12345/ The app will automatically reload if you change any of the source files.
+Run <code>npm start</code> for a dev server. Navigate to http://localhost:12345/ The app will automatically reload if you change any of the source files.
 
-Run **npm install** to install all the project dependancies
+Run <code>npm install</code> to install all the project dependancies
 
